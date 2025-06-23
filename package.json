@@ -1,0 +1,61 @@
+{
+  "name": "gasfree-defi-wallet",
+  "version": "1.0.0",
+  "description": "Advanced DeFi Wallet with Gasless Swaps and Decentralized Storage",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "hardhat deploy",
+    "compile": "hardhat compile",
+    "test:contracts": "hardhat test"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0",
+    "web3": "^4.0.0",
+    "ethers": "^6.0.0",
+    "@biconomy/account": "^3.0.0",
+    "@biconomy/modules": "^3.0.0",
+    "@biconomy/bundler": "^3.0.0",
+    "@biconomy/paymaster": "^3.0.0",
+    "@biconomy/common": "^3.0.0",
+    "ipfs-http-client": "^60.0.0",
+    "arweave": "^1.14.0",
+    "@walletconnect/web3-provider": "^1.8.0",
+    "@web3-react/core": "^8.2.0",
+    "@web3-react/metamask": "^8.2.0",
+    "axios": "^1.3.0",
+    "styled-components": "^5.3.0",
+    "recharts": "^2.5.0",
+    "framer-motion": "^10.0.0",
+    "@chainlink/contracts": "^0.6.0",
+    "lodash": "^4.17.0"
+  },
+  "devDependencies": {
+    "react-scripts": "^5.0.1",
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.0",
+    "@openzeppelin/hardhat-upgrades": "^3.0.0",
+    "hardhat-deploy": "^0.11.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.9.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
